@@ -153,7 +153,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items }
                                     initial="enter"
                                     animate="center"
                                     exit="exit"
-                                    transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                                    transition={{ type: "tween", ease: "easeInOut", duration: 0.3 }}
                                     className="absolute inset-0 overflow-y-auto no-scrollbar px-4 pb-10"
                                 >
                                     <div className="flex flex-col space-y-2">
