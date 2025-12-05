@@ -73,7 +73,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items }
 
     const onDragEnd = (event: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
         // If dragged down more than 100px or with sufficient velocity, close
-        if (info.offset.y > 100 || info.velocity.y > 300) {
+        if (info.offset.y > 50 || info.velocity.y > 300) {
             onClose();
         }
     };
