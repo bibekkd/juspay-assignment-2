@@ -103,7 +103,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose, items }
                         animate={{ y: '5%' }}
                         exit={{ y: '100%' }}
                         transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-                        className="fixed inset-x-0 bottom-0 z-50 flex flex-col overflow-hidden rounded-t-[2rem] bg-gray-50 h-[95%] shadow-2xl"
+                        className="fixed inset-x-0 bottom-0 z-50 flex flex-col overflow-hidden rounded-[2rem] bg-gray-50 h-[83%] shadow-2xl mx-4 mb-12"
                     >
                         {/* Draggable Header Area */}
                         <div
